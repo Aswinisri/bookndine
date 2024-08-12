@@ -1,0 +1,90 @@
+@import "compass/css3";
+
+body {
+	background: #333 url(https://subtlepatterns.com/patterns/escheresque_ste.png);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.menu {
+	background: #fff url(https://subtlepatterns.com/patterns/lightpaperfibers.png);
+	width: 600px;
+	padding: 40px;
+	margin: 2em auto 0;
+	box-shadow: 0 0 20px rgba(black, 0.75);
+	position: relative;
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		position: relative;
+	}
+
+	li {
+		width: 100%;
+		float: left;
+		position: relative;
+		border-bottom: 1px dotted rgba(black, 0.3);
+
+		span {
+			position: relative;
+			float: right;
+			top: .2em;
+			padding: 1px 0 1px 5px;
+			background: #fff url(https://subtlepatterns.com/patterns/lightpaperfibers.png);
+		}
+
+		em {
+			position: relative;
+			float: left;
+			font-style: normal;
+			top: .2em;
+			padding: 0 5px 0 0;
+			background: #fff url(https://subtlepatterns.com/patterns/lightpaperfibers.png);
+		}
+	}
+}
+
+h1 {
+	margin-top: 0;
+}
+
+.corner {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+
+	&.topleft {
+		left: -3px;
+		top: -3px;
+		border-width: 40px 40px 0 0;
+		border-color: #666 transparent transparent transparent;
+	}
+
+	&.topright {
+		right: -3px;
+		top: -3px;
+		border-width: 0 40px 40px 0;
+		border-color: transparent #666666 transparent transparent;
+	}
+
+	&.bottomleft {
+		left: -3px;
+		bottom: -3px;
+		border-width: 40px 0 0 40px;
+		border-color: transparent transparent transparent #666666;
+	}
+
+	&.bottomright {
+		bottom: -3px;
+		right: -3px;
+		border-width: 0 0 40px 40px;
+		border-color: transparent transparent #666 transparent;
+	}
+}

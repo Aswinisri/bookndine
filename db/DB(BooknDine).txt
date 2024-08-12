@@ -1,0 +1,151 @@
+-- Inserting locations
+INSERT INTO LOCATIONS (location_name) VALUES
+('Chennai'),
+('Coimbatore'),
+('Madurai'),
+('Thiruvallur'),
+('Kanchipuram')
+('Trichy')
+('Erode')
+('Salem');
+
+
+-- Inserting hotels with different ratesin chennai
+INSERT INTO HOTEL_DETAILS (location_id, hotel_name, price_per_person) VALUES
+(1, 'Spice Haven', 750.00),
+(1, 'Coastal Delight', 800.00),
+(1, 'Urban Bites', 850.00),
+(1, 'Flavors of Chennai', 900.00),
+(1, 'Curry House', 950.00),
+(1, 'Sizzling Saffron', 1000.00),
+(1, 'South Spice Treat', 1050.00),
+(1, 'Chennai Fusion Grill', 1100.00);
+
+
+
+-- Inserting restaurants in Madurai with different rates, including Madurai Mutton Magic
+INSERT INTO HOTEL_DETAILS (location_id, hotel_name, price_per_person) VALUES
+(3, 'Meenakshi Bites', 750.00),
+(3, 'Temple Tastes', 800.00),
+(3, 'Chettinad Spice Delight', 850.00),
+(3, 'Madurai Masala Junction', 900.00),
+(3, 'Heritage Diner', 950.00),
+(3, 'Royal Chola Feast', 1000.00),
+(3, 'Thirumalai Thalapakatti Treat', 1050.00),
+(3, 'Madurai Mutton Magic', 1100.00);
+
+
+
+ALTER TABLE HOTEL_DETAILS
+ADD COLUMN address VARCHAR(255);
+
+
+-- Inserting hotels with addresses and prices per person
+INSERT INTO HOTEL_DETAILS (location_id, hotel_name, price_per_person, address) VALUES
+(3, 'Kovai Kitchen', 750.00, '123, R.S. Puram Street, Coimbatore'),
+(3, 'Nilgiri Nectar', 800.00, '456, Brookefields Avenue, Coimbatore'),
+(3, 'TexMex Treats', 850.00, '789, Peelamedu Road, Coimbatore'),
+(3, 'Peelamedu Palate', 900.00, '321, Gandhipuram Lane, Coimbatore'),
+(3, 'Siruvani Spice Haven', 950.00, '654, Siruvani Nagar, Coimbatore'),
+(3, 'Gandhipuram Grills', 1000.00, '987, Cross-Cut Road, Gandhipuram, Coimbatore'),
+(3, 'Ukkadam Urban Bites', 1050.00, '210, Ukkadam Street, Coimbatore'),
+(3, 'Peelamedu Platter Paradise', 1100.00, '543, Avinashi Road, Peelamedu, Coimbatore'),
+(3, 'Singanallur Savors', 1150.00, '876, Singanallur Street, Coimbatore'),
+(3, 'R.S. Puram Repast', 1200.00, '234, R.S. Puram Avenue, Coimbatore');
+
+
+
+after alter hotel_details table --->
+
+-- Update addresses for the specified hotels in Madurai
+UPDATE HOTEL_DETAILS SET address = '123, Meenakshi Amman Kovil Street, Madurai' WHERE hotel_name = 'Meenakshi Bites';
+UPDATE HOTEL_DETAILS SET address = '456, Temple Road, Madurai' WHERE hotel_name = 'Temple Tastes';
+UPDATE HOTEL_DETAILS SET address = '789, Chettinad Nagar, Madurai' WHERE hotel_name = 'Chettinad Spice Delight';
+UPDATE HOTEL_DETAILS SET address = '321, Masala Lane, Madurai' WHERE hotel_name = 'Madurai Masala Junction';
+UPDATE HOTEL_DETAILS SET address = '654, Heritage Street, Madurai' WHERE hotel_name = 'Heritage Diner';
+UPDATE HOTEL_DETAILS SET address = '987, Chola Palace Road, Madurai' WHERE hotel_name = 'Royal Chola Feast';
+UPDATE HOTEL_DETAILS SET address = '210, Thirumalai Nagar, Madurai' WHERE hotel_name = 'Thirumalai Thalapakatti Treat';
+UPDATE HOTEL_DETAILS SET address = '543, Mutton Street, Madurai' WHERE hotel_name = 'Madurai Mutton Magic';
+
+
+
+-- Update addresses for the specified hotels in Chennai
+UPDATE HOTEL_DETAILS SET address = '123, Spices Street, Chennai' WHERE hotel_name = 'Spice Haven';
+UPDATE HOTEL_DETAILS SET address = '456, Coastal View Avenue, Chennai' WHERE hotel_name = 'Coastal Delight';
+UPDATE HOTEL_DETAILS SET address = '789, Urban Plaza, Chennai' WHERE hotel_name = 'Urban Bites';
+UPDATE HOTEL_DETAILS SET address = '321, Chennai Central Road, Chennai' WHERE hotel_name = 'Flavors of Chennai';
+UPDATE HOTEL_DETAILS SET address = '654, Curry Lane, Chennai' WHERE hotel_name = 'Curry House';
+UPDATE HOTEL_DETAILS SET address = '987, Saffron Tower, Chennai' WHERE hotel_name = 'Sizzling Saffron';
+UPDATE HOTEL_DETAILS SET address = '210, South Spice Street, Chennai' WHERE hotel_name = 'South Spice Treat';
+UPDATE HOTEL_DETAILS SET address = '543, Fusion Plaza, Chennai' WHERE hotel_name = 'Chennai Fusion Grill';
+
+
+
+-- Inserting hotels with addresses and prices per person coimbatore
+INSERT INTO HOTEL_DETAILS (location_id, hotel_name, price_per_person, address) VALUES
+(3, 'Kovai Kitchen', 750.00, '123, R.S. Puram Street, Coimbatore'),
+(3, 'Nilgiri Nectar', 800.00, '456, Brookefields Avenue, Coimbatore'),
+(3, 'TexMex Treats', 850.00, '789, Peelamedu Road, Coimbatore'),
+(3, 'Peelamedu Palate', 900.00, '321, Gandhipuram Lane, Coimbatore'),
+(3, 'Siruvani Spice Haven', 950.00, '654, Siruvani Nagar, Coimbatore'),
+(3, 'Gandhipuram Grills', 1000.00, '987, Cross-Cut Road, Gandhipuram, Coimbatore'),
+(3, 'Ukkadam Urban Bites', 1050.00, '210, Ukkadam Street, Coimbatore'),
+(3, 'Peelamedu Platter Paradise', 1100.00, '543, Avinashi Road, Peelamedu, Coimbatore'),
+
+
+
+--Accidently  i insert coimbatore hotels in maduarai location id 3 , for updating this below query is entered. 
+
+-- Update location_id for Coimbatore hotels in the HOTEL_DETAILS table
+UPDATE HOTEL_DETAILS SET location_id = 2 WHERE hotel_name IN (
+    'Kovai Kitchen',
+    'Nilgiri Nectar',
+    'TexMex Treats',
+    'Peelamedu Palate',
+    'Siruvani Spice Haven',
+    'Gandhipuram Grills',
+    'Ukkadam Urban Bites',
+    'Peelamedu Platter Paradise',
+    'Singanallur Savors',
+    'R.S. Puram Repast'
+);
+
+
+
+-- Inserting restaurants in Thiruvallur with addresses and location_id
+INSERT INTO HOTEL_DETAILS (location_id, hotel_name, price_per_person, address) VALUES
+(4, 'Thiruvallur Taste Haven', 750.00, '123, Thiruvallur Street, Thiruvallur'),
+(4, 'Golden Grains Diner', 800.00, '456, Rice Fields Road, Thiruvallur'),
+(4, 'Temple City Spices', 850.00, '789, Temple Street, Thiruvallur'),
+(4, 'Thiruvallur Delights Plaza', 900.00, '321, Delightful Avenue, Thiruvallur'),
+(4, 'Mango Tree Bites', 950.00, '654, Mango Grove, Thiruvallur'),
+(4, 'Royal Thiruvallur Feast', 1000.00, '987, Royal Road, Thiruvallur'),
+(4, 'Spicy Haven', 1050.00, '210, Spice Lane, Thiruvallur'),
+(4, 'Thiruvallur Fusion Grill', 1100.00, '543, Fusion Street, Thiruvallur');
+
+
+
+
+-- Inserting restaurants in Kanchipuram with addresses and location_id
+INSERT INTO HOTEL_DETAILS (location_id, hotel_name, price_per_person, address) VALUES
+(5, 'Kanchipuram Spice Palace', 750.00, '123, Temple Street, Kanchipuram'),
+(5, 'Silk Route Bites', 800.00, '456, Silk Road, Kanchipuram'),
+(5, 'Golden Temples Diner', 850.00, '789, Temple View Avenue, Kanchipuram'),
+(5, 'Kanchi Delights Plaza', 900.00, '321, Delightful Lane, Kanchipuram'),
+(5, 'Saree Savor', 950.00, '654, Saree Street, Kanchipuram'),
+(5, 'Royal Kanchipuram Feast', 1000.00, '987, Royal View Road, Kanchipuram'),
+(5, 'Silk Haven', 1050.00, '210, Silk Lane, Kanchipuram'),
+(5, 'Kanchipuram Fusion Grill', 1100.00, '543, Fusion Road, Kanchipuram');
+
+
+
+-- Inserting restaurants in Trichy with addresses and location_id
+INSERT INTO HOTEL_DETAILS (location_id, hotel_name, price_per_person, address) VALUES
+(6, 'Trichy Spice Oasis', 750.00, '123, Oasis Street, Trichy'),
+(6, 'Rock Fort Bites', 800.00, '456, Rock Fort Road, Trichy'),
+(6, 'Golden Temple City Diner', 850.00, '789, Temple City View Avenue, Trichy'),
+(6, 'Trichy Delights Plaza', 900.00, '321, Delightful Fort Lane, Trichy'),
+(6, 'Cauvery Savor', 950.00, '654, Cauvery Street, Trichy'),
+(6, 'Royal Trichy Feast', 1000.00, '987, Royal Fort Road, Trichy'),
+(6, 'Fort Haven', 1050.00, '210, Fort Lane, Trichy'),
+(6, 'Trichy Fusion Grill', 1100.00, '543, Fusion Fort Road, Trichy');

@@ -1,0 +1,239 @@
+-- For hotel with hotel_id 1 (Spice Haven, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (1, 'Chennai Spice Delight', 500.00, NOW(), 'A delightful specialty from Chennai'),
+       (1, 'Spicy Coastal Surprise', 550.00, NOW(), 'A surprising spicy treat with coastal flavors');
+
+-- For hotel with hotel_id 2 (Coastal Delight, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (2, 'Coastal Bliss', 520.00, NOW(), 'A blissful delight with coastal flavors'),
+       (2, 'Chennai Elegance', 580.00, NOW(), 'An elegant dish with Chennai flavors');
+
+-- For hotel with hotel_id 3 (Urban Bites, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (3, 'Urban Sizzler', 530.00, NOW(), 'A sizzling delight from Urban Bites'),
+       (3, 'Flavorsome Surprise', 570.00, NOW(), 'A flavorsome surprise from Chennai');
+
+-- For hotel with hotel_id 4 (Flavors of Chennai, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (4, 'Chennai Palate Pleaser', 540.00, NOW(), 'A pleasing dish for the Chennai palate'),
+       (4, 'Central Road Gourmet', 560.00, NOW(), 'A gourmet experience from Chennai Central Road');
+
+-- For hotel with hotel_id 5 (Curry House, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (5, 'Spicy Curry Surprise', 550.00, NOW(), 'A spicy surprise from Curry House'),
+       (5, 'Chennai Curry Delight', 590.00, NOW(), 'A delightful curry specialty from Chennai');
+
+-- For hotel with hotel_id 6 (Sizzling Saffron, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (6, 'Saffron Spice Surprise', 560.00, NOW(), 'A surprising spicy saffron treat'),
+       (6, 'Chennai Saffron Delight', 540.00, NOW(), 'A delightful saffron specialty from Chennai');
+
+-- For hotel with hotel_id 7 (South Spice Treat, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (7, 'South Spice Surprise', 550.00, NOW(), 'A surprising spicy treat from South Spice'),
+       (7, 'Chennai Spice Fusion', 590.00, NOW(), 'A fusion of spices from Chennai South');
+
+-- For hotel with hotel_id 8 (Chennai Fusion Grill, Chennai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (8, 'Chennai Fusion Sizzler', 570.00, NOW(), 'A sizzling fusion from Chennai'),
+       (8, 'Fusion Plaza Delight', 580.00, NOW(), 'A delightful fusion from Chennai Plaza');
+
+-- For hotel with hotel_id 9 (Meenakshi Bites, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (9, 'Meenakshi Spice Surprise', 500.00, NOW(), 'A surprising spicy delight from Meenakshi Bites'),
+       (9, 'Royal Madurai Feast', 550.00, NOW(), 'A royal feast from Madurai');
+
+-- For hotel with hotel_id 10 (Temple Tastes, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (10, 'Temple Spice Delight', 520.00, NOW(), 'A delightful spice from Temple Tastes'),
+       (10, 'Madurai Temple Treat', 580.00, NOW(), 'A treat with temple flavors from Madurai');
+
+-- For hotel with hotel_id 11 (Chettinad Spice Delight, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (11, 'Chettinad Surprise', 530.00, NOW(), 'A surprising delight from Chettinad Spice Delight'),
+       (11, 'Spicy Chettinad Fusion', 570.00, NOW(), 'A fusion of spices from Chettinad');
+
+-- For hotel with hotel_id 12 (Madurai Masala Junction, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (12, 'Masala Delight', 540.00, NOW(), 'A delightful masala treat from Madurai Masala Junction'),
+       (12, 'Madurai Masala Fusion', 560.00, NOW(), 'A fusion of masala flavors from Madurai');
+
+-- For hotel with hotel_id 13 (Heritage Diner, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (13, 'Heritage Spice Surprise', 550.00, NOW(), 'A surprising spicy heritage delight'),
+       (13, 'Madurai Heritage Fusion', 590.00, NOW(), 'A fusion of heritage flavors from Madurai');
+
+-- For hotel with hotel_id 14 (Royal Chola Feast, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (14, 'Royal Chola Surprise', 560.00, NOW(), 'A surprising royal delight from Royal Chola Feast'),
+       (14, 'Chola Palace Fusion', 540.00, NOW(), 'A fusion of flavors from Chola Palace');
+
+-- For hotel with hotel_id 15 (Thirumalai Thalapakatti Treat, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (15, 'Thalapakatti Spice Delight', 570.00, NOW(), 'A delightful spice from Thirumalai Thalapakatti Treat'),
+       (15, 'Madurai Thalapakatti Fusion', 580.00, NOW(), 'A fusion of Thalapakatti flavors from Madurai');
+
+-- For hotel with hotel_id 16 (Madurai Mutton Magic, Madurai)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (16, 'Mutton Magic Delight', 590.00, NOW(), 'A delightful mutton magic from Madurai'),
+       (16, 'Madurai Magic Fusion', 560.00, NOW(), 'A fusion of magic flavors from Madurai');
+
+-- For hotel with hotel_id 17 (Kovai Kitchen, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (17, 'Kovai Kitchen Delight', 600.00, NOW(), 'A delightful kitchen treat from Kovai Kitchen'),
+       (17, 'Coimbatore Fusion Special', 620.00, NOW(), 'A special fusion from Coimbatore');
+
+-- For hotel with hotel_id 18 (Nilgiri Nectar, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (18, 'Nilgiri Nectar Surprise', 610.00, NOW(), 'A surprising nectar delight from Nilgiri Nectar'),
+       (18, 'Coimbatore Nectar Fusion', 630.00, NOW(), 'A fusion of nectar flavors from Coimbatore');
+
+-- For hotel with hotel_id 19 (TexMex Treats, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (19, 'TexMex Delight', 620.00, NOW(), 'A delightful TexMex treat from TexMex Treats'),
+       (19, 'Coimbatore TexMex Fusion', 640.00, NOW(), 'A fusion of TexMex flavors from Coimbatore');
+
+-- For hotel with hotel_id 20 (Peelamedu Palate, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (20, 'Peelamedu Spice Surprise', 630.00, NOW(), 'A surprising spicy delight from Peelamedu Palate'),
+       (20, 'Coimbatore Palate Fusion', 650.00, NOW(), 'A fusion of palate flavors from Coimbatore');
+
+-- For hotel with hotel_id 21 (Siruvani Spice Haven, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (21, 'Siruvani Spice Delight', 640.00, NOW(), 'A delightful spice from Siruvani Spice Haven'),
+       (21, 'Coimbatore Spice Fusion', 660.00, NOW(), 'A fusion of spice flavors from Coimbatore');
+
+-- For hotel with hotel_id 22 (Gandhipuram Grills, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (22, 'Gandhipuram Grill Delight', 650.00, NOW(), 'A delightful grill treat from Gandhipuram Grills'),
+       (22, 'Coimbatore Grill Fusion', 670.00, NOW(), 'A fusion of grill flavors from Coimbatore');
+
+-- For hotel with hotel_id 23 (Ukkadam Urban Bites, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (23, 'Ukkadam Urban Delight', 660.00, NOW(), 'A delightful urban treat from Ukkadam Urban Bites'),
+       (23, 'Coimbatore Urban Fusion', 680.00, NOW(), 'A fusion of urban flavors from Coimbatore');
+
+-- For hotel with hotel_id 24 (Singanallur Savors, Coimbatore)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (24, 'Singanallur Spice Delight', 670.00, NOW(), 'A delightful spice from Singanallur Savors'),
+       (24, 'Coimbatore Spice Fusion', 690.00, NOW(), 'A fusion of spice flavors from Coimbatore');
+
+-- For hotel with hotel_id 25 (Thiruvallur Taste Haven, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (25, 'Thiruvallur Delight', 700.00, NOW(), 'A delightful treat from Thiruvallur Taste Haven'),
+       (25, 'Thiruvallur Fusion Special', 720.00, NOW(), 'A special fusion from Thiruvallur');
+
+-- For hotel with hotel_id 26 (Golden Grains Diner, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (26, 'Golden Grains Surprise', 710.00, NOW(), 'A surprising grains delight from Golden Grains Diner'),
+       (26, 'Thiruvallur Grains Fusion', 730.00, NOW(), 'A fusion of grains flavors from Thiruvallur');
+
+-- For hotel with hotel_id 27 (Temple City Spices, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (27, 'Temple City Delight', 720.00, NOW(), 'A delightful temple treat from Temple City Spices'),
+       (27, 'Thiruvallur Temple Fusion', 740.00, NOW(), 'A fusion of temple flavors from Thiruvallur');
+
+-- For hotel with hotel_id 28 (Thiruvallur Delights Plaza, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (28, 'Thiruvallur Plaza Special', 730.00, NOW(), 'A special plaza treat from Thiruvallur Delights Plaza'),
+       (28, 'Thiruvallur Plaza Fusion', 750.00, NOW(), 'A fusion of plaza flavors from Thiruvallur');
+
+-- For hotel with hotel_id 29 (Mango Tree Bites, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (29, 'Mango Tree Delight', 740.00, NOW(), 'A delightful mango treat from Mango Tree Bites'),
+       (29, 'Thiruvallur Mango Fusion', 760.00, NOW(), 'A fusion of mango flavors from Thiruvallur');
+
+-- For hotel with hotel_id 30 (Royal Thiruvallur Feast, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (30, 'Royal Thiruvallur Surprise', 750.00, NOW(), 'A surprising royal delight from Royal Thiruvallur Feast'),
+       (30, 'Thiruvallur Royal Fusion', 770.00, NOW(), 'A fusion of royal flavors from Thiruvallur');
+
+-- For hotel with hotel_id 31 (Spicy Haven, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (31, 'Spicy Haven Delight', 760.00, NOW(), 'A delightful spice from Spicy Haven'),
+       (31, 'Thiruvallur Spicy Fusion', 780.00, NOW(), 'A fusion of spicy flavors from Thiruvallur');
+
+-- For hotel with hotel_id 32 (Thiruvallur Fusion Grill, Thiruvallur)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (32, 'Thiruvallur Grill Delight', 770.00, NOW(), 'A delightful grill treat from Thiruvallur Fusion Grill'),
+       (32, 'Thiruvallur Grill Fusion', 790.00, NOW(), 'A fusion of grill flavors from Thiruvallur Fusion Grill');
+
+-- For hotel with hotel_id 33 (Kanchipuram Spice Palace, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (33, 'Kanchipuram Spice Delight', 800.00, NOW(), 'A delightful spice from Kanchipuram Spice Palace'),
+       (33, 'Kanchipuram Spice Fusion', 820.00, NOW(), 'A fusion of spice flavors from Kanchipuram');
+
+-- For hotel with hotel_id 34 (Silk Route Bites, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (34, 'Silk Route Surprise', 810.00, NOW(), 'A surprising silk delight from Silk Route Bites'),
+       (34, 'Kanchipuram Silk Fusion', 830.00, NOW(), 'A fusion of silk flavors from Kanchipuram');
+
+-- For hotel with hotel_id 35 (Golden Temples Diner, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (35, 'Golden Temples Delight', 820.00, NOW(), 'A delightful temple treat from Golden Temples Diner'),
+       (35, 'Kanchipuram Temple Fusion', 840.00, NOW(), 'A fusion of temple flavors from Kanchipuram');
+
+-- For hotel with hotel_id 36 (Kanchi Delights Plaza, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (36, 'Kanchipuram Plaza Special', 830.00, NOW(), 'A special plaza treat from Kanchi Delights Plaza'),
+       (36, 'Kanchipuram Plaza Fusion', 850.00, NOW(), 'A fusion of plaza flavors from Kanchipuram');
+
+-- For hotel with hotel_id 37 (Saree Savor, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (37, 'Saree Savor Delight', 840.00, NOW(), 'A delightful saree treat from Saree Savor'),
+       (37, 'Kanchipuram Saree Fusion', 860.00, NOW(), 'A fusion of saree flavors from Kanchipuram');
+
+-- For hotel with hotel_id 38 (Royal Kanchipuram Feast, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (38, 'Royal Kanchipuram Surprise', 850.00, NOW(), 'A surprising royal delight from Royal Kanchipuram Feast'),
+       (38, 'Kanchipuram Royal Fusion', 870.00, NOW(), 'A fusion of royal flavors from Kanchipuram');
+
+-- For hotel with hotel_id 39 (Silk Haven, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (39, 'Silk Haven Delight', 860.00, NOW(), 'A delightful silk treat from Silk Haven'),
+       (39, 'Kanchipuram Silk Fusion', 880.00, NOW(), 'A fusion of silk flavors from Kanchipuram');
+
+-- For hotel with hotel_id 40 (Kanchipuram Fusion Grill, Kanchipuram)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (40, 'Kanchipuram Grill Delight', 870.00, NOW(), 'A delightful grill treat from Kanchipuram Fusion Grill'),
+       (40, 'Kanchipuram Grill Fusion', 890.00, NOW(), 'A fusion of grill flavors from Kanchipuram Fusion Grill');
+
+-- For hotel with hotel_id 41 (Trichy Spice Oasis, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (41, 'Trichy Oasis Delight', 880.00, NOW(), 'A delightful oasis treat from Trichy Spice Oasis'),
+       (41, 'Trichy Oasis Fusion', 900.00, NOW(), 'A fusion of oasis flavors from Trichy');
+
+-- For hotel with hotel_id 42 (Rock Fort Bites, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (42, 'Rock Fort Surprise', 890.00, NOW(), 'A surprising rock fort delight from Rock Fort Bites'),
+       (42, 'Trichy Rock Fort Fusion', 910.00, NOW(), 'A fusion of rock fort flavors from Trichy');
+
+-- For hotel with hotel_id 43 (Golden Temple City Diner, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (43, 'Golden Temple City Delight', 900.00, NOW(), 'A delightful temple city treat from Golden Temple City Diner'),
+       (43, 'Trichy Temple City Fusion', 920.00, NOW(), 'A fusion of temple city flavors from Trichy');
+
+-- For hotel with hotel_id 44 (Trichy Delights Plaza, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (44, 'Trichy Plaza Special', 910.00, NOW(), 'A special plaza treat from Trichy Delights Plaza'),
+       (44, 'Trichy Plaza Fusion', 930.00, NOW(), 'A fusion of plaza flavors from Trichy');
+
+-- For hotel with hotel_id 45 (Cauvery Savor, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (45, 'Cauvery Savor Delight', 920.00, NOW(), 'A delightful savor treat from Cauvery Savor'),
+       (45, 'Trichy Cauvery Fusion', 940.00, NOW(), 'A fusion of Cauvery flavors from Trichy');
+
+-- For hotel with hotel_id 46 (Royal Trichy Feast, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (46, 'Royal Trichy Surprise', 930.00, NOW(), 'A surprising royal delight from Royal Trichy Feast'),
+       (46, 'Trichy Royal Fusion', 950.00, NOW(), 'A fusion of royal flavors from Trichy');
+
+-- For hotel with hotel_id 47 (Fort Haven, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (47, 'Fort Haven Delight', 940.00, NOW(), 'A delightful fort treat from Fort Haven'),
+       (47, 'Trichy Fort Fusion', 960.00, NOW(), 'A fusion of fort flavors from Trichy');
+
+-- For hotel with hotel_id 48 (Trichy Fusion Grill, Trichy)
+INSERT INTO SPECIAL_ITEMS (hotel_id, item_name, item_price, created_at, item_description)
+VALUES (48, 'Trichy Grill Delight', 950.00, NOW(), 'A delightful grill treat from Trichy Fusion Grill'),
+       (48, 'Trichy Grill Fusion', 970.00, NOW(), 'A fusion of grill flavors from Trichy Fusion Grill');
