@@ -1,0 +1,62 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Notifications</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #notifications {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .notification {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="notifications">
+  <h2>Admin Notifications</h2>
+
+  <div class="notification">You have a new order request</div>
+  <div class="notification">New message from a customer</div>
+  <div class="notification">Product stock is running low</div>
+  <!-- Add more notifications as needed -->
+
+  <button onclick="clearNotifications()">Clear Notifications</button>
+</div>
+
+<script>
+  // Clear notifications button function
+  function clearNotifications() {
+    // You can customize this function based on your application logic
+    alert('Notifications cleared');
+    // Additional logic to clear notifications from the server or update the UI
+  }
+</script>
+
+</body>
+</html>
